@@ -1,0 +1,26 @@
+.friendList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.item {
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.frindName {
+  margin: 10px 0;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}

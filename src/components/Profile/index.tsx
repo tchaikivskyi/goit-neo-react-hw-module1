@@ -1,16 +1,5 @@
+import type { UserData } from "../../types";
 import css from "./style.module.css";
-
-type UserData = {
-  username: string;
-  tag: string;
-  location: string;
-  avatar: string;
-  stats: {
-    followers: number;
-    views: number;
-    likes: number;
-  };
-};
 
 function Profile({ data }: { data: UserData }) {
   const { username, tag, location, avatar, stats } = data;
