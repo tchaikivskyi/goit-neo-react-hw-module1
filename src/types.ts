@@ -16,3 +16,10 @@ export type FriendData = {
   isOnline: boolean;
   id: number;
 };
+
+export type TransactionsData = {
+  id: string;
+  type: string;
+  amount: string;
+  currency: string;
+};
