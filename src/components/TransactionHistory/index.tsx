@@ -3,7 +3,7 @@ import css from "./style.module.css";
 
 function TransactionHistory({ data }: { data: TransactionsData[] }) {
   return (
-    <table>
+    <table className={css.table}>
       <thead>
         <tr>
           <th>Type</th>
