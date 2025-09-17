@@ -1,0 +1,59 @@
+.profile {
+  max-width: 300px;
+  width: 100%; 
+  margin: 30px auto;
+  text-align: center;
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+
+.profileContent {
+  padding: 20px;
+}
+
+.profileImage {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: rgb(70, 67, 67);
+}
+
+.profileContent p:not(:last-child) {
+  font-weight: 500;
+  color: gray;
+}
+
+.profileContent p:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.profileName {
+  color: #000;
+}
+
+.profileStats {
+  display: flex;
+  background: rgb(196, 189, 189);
+  border-top: 2px solid gray;
+}
+
+.profileStats li {
+  width: calc(100% / 3);
+  padding: 10px 0;
+}
+
+.profileStats li:nth-child(2) {
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+}
+
+.profileStats span {
+  display: block;
+  text-align: center;
+}
+
+.profileStats span:last-child {
+  font-weight: 500;
+  margin-top: 10px;
+}
